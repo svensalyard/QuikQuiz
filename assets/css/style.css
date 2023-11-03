@@ -14,14 +14,6 @@ body {
     background-color: blue;
 }
 
-body.correct {
-background-color: green;
-}
-
-body.wrong {
-background-color: red;
-}
-
 .container {
     width: 800px;
     max-width: 80%;
@@ -31,6 +23,7 @@ background-color: red;
     box-shadow: 0 0 10px 2px;
 }
 
+/* Lines up buttons */
 .btn-grid {
     display: flex;
     flex-direction: column;
@@ -50,10 +43,11 @@ background-color: red;
     border-color: black;
 }
 
+/* correct answer shown in green */
 .btn.correct {
     background-color: green;
 }
-
+/* Wrong answer shown in red */
 .btn.wrong {
     background-color: red;
 }
@@ -72,20 +66,15 @@ background-color: red;
     align-items: center;
 }
 
+/* To hide specific elements */
 .hide {
     display: none;
 }
 
+/* Centers all of the elements to the middle of the page */
 .center {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
-
-
-.answer {
-    transform: scale(1.0);
-    font-size: 20px;
-}
-
